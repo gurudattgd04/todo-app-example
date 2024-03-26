@@ -26,5 +26,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/app.ts"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
